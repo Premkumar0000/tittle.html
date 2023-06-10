@@ -1,0 +1,253 @@
+#intro{
+    text-align: center;
+    /* margin-top: 10%; */
+    border: 1px solid silver;
+    height: 500px;
+    padding-top: 10%;
+    background-color: silver;
+}
+#button {
+    display: block;
+    width: 100%;
+    max-width: 250px; /* Adjust the maximum width as needed */
+    max-height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    background-color: teal;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  a #button{
+    text-decoration: none;
+  }
+  
+  /* Additional styles for mobile devices */
+  @media (max-width: 360px) {
+    #button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  #button:hover{
+        background-color: red;
+        color: black;
+        
+       
+  }
+  #about{
+    height:650px ;
+    text-align: center;
+  }
+  #head{
+    
+    color: black;
+    font-weight:bold;
+  }
+  #head2{
+    text-align: justify;
+    color: black;
+    font-weight:bold;
+    padding-top: 2%;
+  }
+  #head3{
+    width: 25%;
+    filter: drop-shadow(12px 8px 7px rgb(0 0 0 / 70%));
+  }
+  #card1{
+    margin-top: 5%;
+    height: 300px;
+    text-align: center;
+    
+}
+#card{
+  background-color: gray;
+}
+#card2{
+  margin-top: 5%;
+  height: 300px;
+  text-align: center;
+  
+}
+#card3{
+  margin-top: 5%;
+  height: 300px;
+  text-align: center;
+  
+}
+#card4{
+  margin-top: 5%;
+  height: 300px;
+  text-align: center;
+ 
+
+}
+#card1:hover{
+  box-shadow: 10px 10px 0px teal;
+  top:-5px;
+  left: -5px;
+
+  
+}
+#card2:hover{
+  box-shadow: 10px 10px 0px teal;
+  top:-5px;
+  left: -5px;
+  
+}
+#card3:hover{
+  box-shadow: 10px 10px 0px teal;
+  top:-5px;
+  left: -5px;
+  
+}
+#card4:hover{
+  box-shadow: 10px 10px 0px teal;
+  top:-5px;
+  left: -5px;
+  
+}
+#write{
+  text-align:left;
+}
+#png{
+  width: 25%;
+  filter: drop-shadow(12px 8px 7px rgb(0 0 0 / 70%));
+}
+#png3{
+  width: 40%;
+  filter: drop-shadow(12px 8px 7px rgb(0 0 0 / 70%));
+
+}
+#png2{
+  width: 18%;
+  filter: drop-shadow(12px 8px 7px rgb(0 0 0 / 70%));
+}
+#png4{
+  width: 29%;
+  filter: drop-shadow(12px 8px 7px rgb(0 0 0 / 70%));
+
+}
+ #png5{
+  width: 35%;
+  
+  filter: drop-shadow(12px 8px 7px rgb(0 0 0 / 70%));
+
+ }
+ #nav:hover{
+  background-color: white;
+ } 
+ #nav{
+  color: black;
+  font-weight: bold;
+  
+ }
+ #video{
+  border: 1px solid gray;
+  /* margin-top: 5%; */
+ }
+ #pro{
+  text-align: center;
+  font-weight: bold;
+  
+ }
+ #video1:hover{
+  border: 1px solid gray;
+  box-shadow: 10px 10px 15px black;
+ }
+#back{
+  background-color: gray;
+  margin-top: 2%;
+}
+#one{
+  width: 65%;
+  height: 250px;
+  margin-top: 1%;
+  
+}
+#two{
+  width: 65%;
+  height: 250px;
+  float: right;
+  background-color: white;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+#three{
+  width: 65%;
+  height: 250px;
+  margin-top: 5%;
+}
+#png11{
+  
+  width: 20%;
+  filter: drop-shadow(12px 8px 7px rgb(0 0 0 / 70%));
+}
+#png12{
+  filter: drop-shadow(12px 8px 7px rgb(0 0 0 / 70%));
+  width: 13%;
+}
+#one:hover{
+  box-shadow: 10px 10px 15px black;
+}
+#two:hover{
+  box-shadow: 10px 10px 15px black;
+}
+#footer{
+  margin-top: 5%;
+  border: 1px solid teal;
+  background-color: teal;
+  height: 400px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color:teal;
+}
+
+.name,
+.job-title {
+  font-weight: bold;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact ul li {
+  margin-bottom: 5px;
+}
+
+.contact ul li:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .contact ul li {
+      margin-bottom: 10px;
+  }
+}
+
+
+
+  
+    
+    
+    
+  
+  
